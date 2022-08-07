@@ -1,0 +1,159 @@
+body{
+margin: 0;
+}
+
+.first-container{
+     margin: 0;
+    padding: 0;
+    background-color: #1f2937;
+    height: 500px;
+   
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+ul{
+    display: flex;
+    width: 400px;
+    list-style-type: none;
+    gap: 20px;
+    /* background-color: yellow; */
+
+}
+.sub-heading{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    /* background-color: yellow; */
+    align-items: center;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+a{
+    color: white;
+   text-decoration: none;
+}
+
+/* This is for second heading  */
+
+.second-heading{
+    
+    height: 400px;
+    /* background-color: aqua; */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+.info{
+    font-size: 20px;
+    width:500px;
+}
+button{
+    background-color: rgb(12, 102, 161);
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+img{
+    width: 800px;
+    height: 300px;
+    margin-top: 20px;
+}
+.pic{
+    width: 200px;
+    height: 200px;
+}
+h1{
+    text-align: center;
+}
+
+.second-container{
+   /* background-color: green; */
+   padding: 10px;
+   display: flex;
+   align-items:  center;
+   flex-direction: column;
+   ;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    width: 890px;
+    /* background-color: red; */
+    gap: 10px;
+    
+
+}
+.third-container{
+    background-color: rgb(201, 196, 196);
+    height: 400px;
+    padding: 10px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+.detail{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 1000px;
+/* padding: 30px; */
+}
+
+figcaption{
+font-weight: bold;
+font-size: 30px;
+/* background-color: red; */
+width: 700px;
+/* margin-bottom: 150px; */
+
+}
+
+.fourth-container{
+    /* background-color: red; */
+    padding: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    padding: 30px;
+    width: 1300px;
+    border-radius: 20px;
+    color: white;
+    gap: 40px;
+    
+}
+.topic{
+    font-weight: bold;
+    font-size: 30px;
+}
+.btn{
+    margin-top: 30px;
+  width: 200px;
+  /* border: white; */
+ /* border-radius: white; */
+}
+.footer{
+    background-color: #1f2937;
+    height: 80px;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
